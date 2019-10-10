@@ -31,7 +31,7 @@ nav ul li {
 }
 nav ul li a {
     display: block;
-    font-family:arial;
+    font-family: Helvetica;
     color:black;
     font: size 25;px;
     padding:5px 15px; 
@@ -66,26 +66,12 @@ nav ul li ul li{
 nav ul li ul li a {
     padding: 8px 14px;
 }
-nav ul li ul li a:hover {
-    background-color: red;
-
-}
 .container{
     width:70%;
     margin: auto;
     overflow: hidden;
     margin-top: 1%;
 }   
-showcase h1{
-    color:#fff;
-    font-family:cursive;
-    text-align: center;
-}
-showcase h3{
-    color: #fff;
-    text-align: center;
-    letter-spacing: 2px;
-}
 
 .category{
     color:#fff;
@@ -98,25 +84,4 @@ img{
     width:20%;
     border-block-width: 10%;
 
-}
-.snack, .grill{
-        padding-left: Irem;
-}
-h4{
-    font-size: 2rem; /*lrem=16 */
-    margin: 3%;
-    color:#fff;
-}
-.btn{
-    background-color: gold;
-    padding: Irem;
-    border: none;
-    border-radius: 8px;
-    margin-left: 45%;
-}
-
-showcase p{
-    font-size:25px;
-    color:#fff;
-    margin: 4%;
 }

@@ -9,6 +9,7 @@ h1 { font-family:'Shadow Into';
 body{
     
     background-size: cover;
+    background-color: lightgray;
 }
 h2 {
     font-size: 50px;
@@ -16,40 +17,57 @@ h2 {
     padding: 0px 5px;
 }
 
-nav {
-    font-family:'Tangerine', cursive;
+body,html {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  ul {
+    padding: 0;
     width: 100%;
-    height: 50px;
-    background-color:skyblue;
-}
-nav ul{
-    float: left;
-}
-nav ul li {
-    font-family:'Tangerine', cursive;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: lightgray;
+  }
+  
+  li:last-child a {
+    margin-right: 0;
+  }
+  
+  a:link, a:visited, a:focus {
+    background: indigo;
+  }
+  
+  a:hover {     
+    background: orange;
+  }
+  
+  a:active {
+    background: red;
+    color: white;
+  }
 
-    float: left;
-    list-style: none;
-    position: relative;
-}
+  footer{
+       grid-area: footer;
+  }
 
-nav ul li ul{
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    padding: 0px 5px;
-    border-radius: 0px 0px 0px 0px;
-}
-nav ul li ul li{
-    width: 180px;
-    border-radius: 4px;
-}
-nav ul li ul li a {
-    padding: 8px 14px;
-
-
-img{
-    width:20%;
-    border-block-width: 10%;
-
-}
+  img{
+      width: 20%;
+      border-block: 10%;
+  }
+   video{
+    width: 20%;
+    border-block: 10%;
+   }

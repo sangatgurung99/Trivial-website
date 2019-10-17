@@ -1,5 +1,5 @@
 
-h1 { font-family:'Shadow Into';
+h1 { font-family:'Shadow Into', cursive;
     font-size: 40px;
     font-weight: 300;
     text-transform: uppercase;
@@ -35,7 +35,7 @@ body,html {
     outline: none;
     text-decoration: none;
     display: inline-block;
-    width: 19.5%;
+    width: 23.5%;
     margin-right: 0.625%;
     text-align: center;
     line-height: 3;
@@ -71,3 +71,7 @@ body,html {
     width: 20%;
     border-block: 10%;
    }
+
+.centered {
+    text-align: center;
+}
